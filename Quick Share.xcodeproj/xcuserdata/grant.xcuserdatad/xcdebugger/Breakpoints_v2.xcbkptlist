@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Quick Share/ShowImageViewController.swift"
+            timestampString = "488796810.425445"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "ShareInstagram()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Quick Share/ShowImageViewController.swift"
+            timestampString = "488796894.08336"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Quick_Share.ShowImageViewController.viewDidLoad () -&gt; ()"
+                  moduleName = "Quick Share"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/grant/Library/Mobile%20Documents/com~apple~CloudDocs/Udemy%20Current/App%204-%20Quick%20Share/Quick%20Share/Quick%20Share/ShowImageViewController.swift"
+                  timestampString = "488796894.378287"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Quick_Share.ShowImageViewController.(viewDidLoad () -&gt; ()).(closure #1)"
+                  moduleName = "Quick Share"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/grant/Library/Mobile%20Documents/com~apple~CloudDocs/Udemy%20Current/App%204-%20Quick%20Share/Quick%20Share/Quick%20Share/ShowImageViewController.swift"
+                  timestampString = "488796894.381287"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

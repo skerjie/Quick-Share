@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		938CD9711D20467B00B871A2 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938CD9701D20467B00B871A2 /* MyTableViewCell.swift */; };
+		938CD9741D20FB3E00B871A2 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 938CD9731D20FB3E00B871A2 /* Photos.framework */; };
+		938CD9761D210BDF00B871A2 /* ShowImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938CD9751D210BDF00B871A2 /* ShowImageViewController.swift */; };
 		93A51B011D1FD48000355598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A51B001D1FD48000355598 /* AppDelegate.swift */; };
 		93A51B031D1FD48000355598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A51B021D1FD48000355598 /* ViewController.swift */; };
 		93A51B061D1FD48000355598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A51B041D1FD48000355598 /* Main.storyboard */; };
 		93A51B081D1FD48000355598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93A51B071D1FD48000355598 /* Assets.xcassets */; };
 		93A51B0B1D1FD48000355598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A51B091D1FD48000355598 /* LaunchScreen.storyboard */; };
+		93A51B131D1FD82000355598 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 93A51B121D1FD82000355598 /* images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		938CD9701D20467B00B871A2 /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		938CD9731D20FB3E00B871A2 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		938CD9751D210BDF00B871A2 /* ShowImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowImageViewController.swift; sourceTree = "<group>"; };
 		93A51AFD1D1FD48000355598 /* Quick Share.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quick Share.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A51B001D1FD48000355598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93A51B021D1FD48000355598 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,7 @@
 		93A51B071D1FD48000355598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93A51B0A1D1FD48000355598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93A51B0C1D1FD48000355598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A51B121D1FD82000355598 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				938CD9741D20FB3E00B871A2 /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		938CD9721D20FB3E00B871A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				938CD9731D20FB3E00B871A2 /* Photos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		93A51AF41D1FD48000355598 = {
 			isa = PBXGroup;
 			children = (
 				93A51AFF1D1FD48000355598 /* Quick Share */,
 				93A51AFE1D1FD48000355598 /* Products */,
+				938CD9721D20FB3E00B871A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +72,15 @@
 		93A51AFF1D1FD48000355598 /* Quick Share */ = {
 			isa = PBXGroup;
 			children = (
+				93A51B121D1FD82000355598 /* images */,
 				93A51B001D1FD48000355598 /* AppDelegate.swift */,
 				93A51B021D1FD48000355598 /* ViewController.swift */,
 				93A51B041D1FD48000355598 /* Main.storyboard */,
 				93A51B071D1FD48000355598 /* Assets.xcassets */,
 				93A51B091D1FD48000355598 /* LaunchScreen.storyboard */,
 				93A51B0C1D1FD48000355598 /* Info.plist */,
+				938CD9701D20467B00B871A2 /* MyTableViewCell.swift */,
+				938CD9751D210BDF00B871A2 /* ShowImageViewController.swift */,
 			);
 			path = "Quick Share";
 			sourceTree = "<group>";
@@ -125,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93A51B131D1FD82000355598 /* images in Resources */,
 				93A51B0B1D1FD48000355598 /* LaunchScreen.storyboard in Resources */,
 				93A51B081D1FD48000355598 /* Assets.xcassets in Resources */,
 				93A51B061D1FD48000355598 /* Main.storyboard in Resources */,
@@ -140,6 +162,8 @@
 			files = (
 				93A51B031D1FD48000355598 /* ViewController.swift in Sources */,
 				93A51B011D1FD48000355598 /* AppDelegate.swift in Sources */,
+				938CD9711D20467B00B871A2 /* MyTableViewCell.swift in Sources */,
+				938CD9761D210BDF00B871A2 /* ShowImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Quick Share/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gkmicro.Quick-Share";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -271,6 +296,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Quick Share/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gkmicro.Quick-Share";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -297,6 +323,7 @@
 				93A51B111D1FD48000355598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
